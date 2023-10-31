@@ -1,4 +1,4 @@
-<?php
+<php
 $activation= (array_key_exists('activation-info-base64', $_POST) 
 			  ? base64_decode($_POST['activation-info-base64']) 
 			  : array_key_exists('activation-info', $_POST) ? $_POST['activation-info'] : '');
